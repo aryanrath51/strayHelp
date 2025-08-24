@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrayHelp Lite - Report Injured Animals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <span class="text-2xl font-bold text-purple-600">🐾 StrayHelp Lite</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-purple-600 transition-colors">Features</a>
+                    <a href="#how-it-works" class="text-gray-700 hover:text-purple-600 transition-colors">How It Works</a>
+                    <a href="#download" class="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition-colors">Download App</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white pt-24 pb-20 md:pt-32 md:pb-28">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                        Help Stray Animals<br>With Just One Tap
+                    </h1>
+                    <p class="text-xl md:text-2xl mb-8 text-purple-100">
+                        Report injured stray animals quickly and easily. Your report can save a life.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#download" class="bg-white text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors text-center">
+                            Get Started
+                        </a>
+                        <a href="#features" class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors text-center">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-6 transform rotate-3">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/98eed303-4ea7-4303-8d10-aedfa310c8b9.png" alt="StrayHelp Lite mobile app interface showing animal reporting screen with location map and camera options" class="rounded-2xl shadow-2xl transform -rotate-3" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Powerful Features</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Everything you need to help animals in need</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="feature-card bg-gray-50 p-8 rounded-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-2xl">📍</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">GPS Location Tracking</h3>
+                    <p class="text-gray-600">Automatically captures your current location to pinpoint exactly where help is needed.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card bg-gray-50 p-8 rounded-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-2xl">📸</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Photo Capture</h3>
+                    <p class="text-gray-600">Take photos of injured animals to provide visual evidence and help rescuers identify them.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card bg-gray-50 p-8 rounded-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-2xl">⚡</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Quick Reporting</h3>
+                    <p class="text-gray-600">Simple one-tap reporting process that takes less than 30 seconds to complete.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card bg-gray-50 p-8 rounded-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-2xl">☁️</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Cloud Storage</h3>
+                    <p class="text-gray-600">All reports are securely stored in Firebase with automatic backup and synchronization.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card bg-gray-50 p-8 rounded-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-2xl">🔒</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Secure Data</h3>
+                    <p class="text-gray-600">Your data is protected with enterprise-grade security and privacy measures.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card bg-gray-50 p-8 rounded-xl transition-all duration-300">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-2xl">🌍</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Global Reach</h3>
+                    <p class="text-gray-600">Works anywhere in the world with offline capabilities and low data usage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">How It Works</h2>
+                <p class="text-xl text-gray-600">Simple steps to make a difference</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+                        1
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Open the App</h3>
+                    <p class="text-gray-600">Launch StrayHelp Lite and tap the report button to get started.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+                        2
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Take Photo & Add Details</h3>
+                    <p class="text-gray-600">Capture a photo of the animal and add any important notes about their condition.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">
+                        3
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Submit Report</h3>
+                    <p class="text-gray-600">Your report is automatically sent to local animal rescue organizations.</p>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-white rounded-2xl p-8 shadow-lg">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1fe66b82-344c-4acb-b5bf-7901dfdab219.png" alt="Mobile app demonstration showing step-by-step process of reporting an injured animal with location mapping" class="rounded-xl shadow-md" />
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Real-time Impact</h3>
+                        <p class="text-gray-600 mb-6">
+                            Every report you submit helps connect injured animals with local rescue teams. 
+                            Your quick action can mean the difference between life and death for animals in distress.
+                        </p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center">
+                                <span class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3">✓</span>
+                                <span class="text-gray-600">Instant notification to nearby rescue organizations</span>
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3">✓</span>
+                                <span class="text-gray-600">GPS coordinates for precise location tracking</span>
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3">✓</span>
+                                <span class="text-gray-600">Photo evidence for better assessment</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="py-20 bg-purple-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Make a Difference?</h2>
+            <p class="text-xl mb-8 text-purple-100 max-w-3xl mx-auto">
+                Download StrayHelp Lite today and join the community of animal lovers making a real impact in their communities.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-white text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors">
+                    Download for Android
+                </button>
+                <button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors">
+                    Download for iOS
+                </button>
+            </div>
+
+            <div class="mt-12 grid md:grid-cols-3 gap-8 text-left">
+                <div class="bg-white/10 p-6 rounded-xl">
+                    <h4 class="text-xl font-semibold mb-4">100% Free</h4>
+                    <p class="text-purple-100">No hidden fees or subscriptions. Help animals without any cost.</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-xl">
+                    <h4 class="text-xl font-semibold mb-4">Open Source</h4>
+                    <p class="text-purple-100">Built with love by the community. Contribute and help improve the app.</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-xl">
+                    <h4 class="text-xl font-semibold mb-4">Privacy First</h4>
+                    <p class="text-purple-100">We respect your privacy. Your data is never sold or shared.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">StrayHelp Lite</h4>
+                    <p class="text-gray-400">Making the world a better place for stray animals, one report at a time.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">API</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-400">help@strayhelplite.org</p>
+                    <p class="text-gray-400">+1 (555) 123-HELP</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2024 StrayHelp Lite. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add loading animation for images
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('img');
+            images.forEach(img => {
+                img.addEventListener('load', function() {
+                    this.style.opacity = '1';
+                });
+                img.style.transition = 'opacity 0.3s ease-in-out';
+                img.style.opacity = '0';
+            });
+        });
+    </script>
+</body>
+</html>
+
